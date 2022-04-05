@@ -1,0 +1,74 @@
+@import "../base/extends";
+@import "../base/variables";
+@import "../base/extends";
+@import "../base/listas";
+@import "../base/maps";
+
+
+header{
+    background-color: $color-principal;
+    nav{
+        div{
+            .logo{
+                margin-left: 3rem;
+            }
+            div{
+                .navBar-modificada{
+                    background-color: $color-principal;
+                    .items-barra{
+                        margin-right: 2rem;
+                    }
+                        li{
+                            .boton{
+                                text-decoration: map-get($header, decoracion);
+                                color: map-get($header , letra);
+                                font-family: 'Syne', sans-serif;
+                                font-size: map-get($header, size);
+                                font-weight: nth($font-w, 2);
+                                &:hover{
+                                    color: $color-acento;
+                                }
+                            }
+                        }
+                        li{
+                            .boton{
+                                text-decoration: map-get($header, decoracion);
+                                color: map-get($header , letra);
+                                font-family: 'Syne', sans-serif;
+                                font-size: map-get($header, size);
+                                font-weight: nth($font-w, 2);
+                                &:hover{
+                                    color: $color-acento;
+                                }
+                            }
+                        }
+                        li{
+                            .boton{
+                                text-decoration: map-get($header, decoracion);
+                                color: map-get($header , letra);
+                                font-family: 'Syne', sans-serif;
+                                font-size: map-get($header, size);
+                                font-weight: nth($font-w, 2);
+                                &:hover{
+                                    color: $color-acento;
+                                }
+                            }
+                        }
+                        li{
+                            .boton{
+                                text-decoration: map-get($header, decoracion);
+                                color: map-get($header , letra);
+                                font-family: 'Syne', sans-serif;
+                                font-size: map-get($header, size);
+                                font-weight: nth($font-w, 2);
+                                &:hover{
+                                    color: $color-acento;
+                                }
+                            }
+                        }
+
+                }
+            }
+        }
+    }
+}

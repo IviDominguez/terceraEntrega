@@ -1,0 +1,10 @@
+@mixin textos($colors, $size-f) {
+    color: $colors;
+    font-size: $size-f;
+
+}
+
+@mixin sizes($width, $height) {
+    width: $width;
+    height: $height;
+}

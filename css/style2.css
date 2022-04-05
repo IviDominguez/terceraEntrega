@@ -1,0 +1,900 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container__general{
+    background-color: rgb(235, 235, 235)
+}
+
+
+/*INDEX*/
+/* header */
+/*.header{
+    background-color: rgb(235, 235, 235);
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: center;
+    height: 120px;
+    border: 2px solid rgb(252, 160, 74);
+}
+
+.barra li{
+    list-style-type: none;
+}
+.barra li a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Syne', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 8px; 
+}
+.hover a:hover{
+    background-color: rgb(252, 160, 74);
+    color: white;
+    border: 2px solid rgb(252, 160, 74);
+    border-radius: 20px;
+    padding: 8px;  
+    
+}*/
+
+/*NAVBAR BS*/
+.navBar-modificada{
+    background-color: rgb(235, 235, 235);
+    display: inline;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: center;
+    height: 6.5rem;
+    /*border: 2px solid rgb(252, 160, 74);*/
+}
+.items-barra li a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Syne', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+}
+.items-barra{
+    margin-right: 2rem;
+}
+.logo{
+    margin-left: 3rem;
+}
+.boton{
+    margin-right: 1rem;
+}
+
+.items-barra li a:hover{
+    color: rgb(252, 160, 74);
+}
+
+
+
+/*main INDEX*/
+.mainIndex{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+.main__div{
+    width: 60rem;
+    height: 28rem;
+}
+
+.h1{
+    color: black;
+    font-size: 120px;
+    font-family: 'Syne', sans-serif;
+    font-weight: 800;
+    text-align: center;
+}
+
+
+.industrial__h2{
+    color: black;
+    font-size: 90px;
+    font-family: 'Syne', sans-serif;
+    font-weight: 800;
+    text-align: center;
+}
+
+
+.argentino__h2{
+    color: black;
+    font-size: 80px;
+    font-family: 'Syne', sans-serif;
+    font-weight: 800;
+    text-align: center;
+}
+
+/*footer estilo INDEX Y PAGESbackground-color: rgb(235, 235, 235);*/
+/*.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 0 1rem 0;
+    
+}
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}*/
+.nombre{
+    color: rgb(252, 160, 74);
+    font-size: 18px;
+    font-family: 'Syne', sans-serif;
+    font-weight: 500;
+}
+.div-parrafo{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.nav__footer ul li{
+    list-style-type: none;
+}
+
+.nav__footer ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.linkedin i{
+    color: rgb(252, 160, 74);
+    font-size: 25px;
+}
+.behance i{
+    color: rgb(252, 160, 74);
+    font-size: 25px;
+    margin-left: 20px;
+}
+.facebook i{
+    color: rgb(252, 160, 74);
+    font-size: 25px;
+    margin-left: 20px;
+}
+.instagram i{
+    color: rgb(252, 160, 74);
+    font-size: 25px;
+    margin-left: 20px;
+}
+
+/*------------------------------*/
+/*@media para mobile*/
+@media (max-width: 576px) {
+    .items-barra li a:hover{
+        color: rgb(252, 160, 74);
+    }    
+    
+    .main__div{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .h1{
+        color: black;
+        font-size: 28px;
+        font-family: 'Syne', sans-serif;
+        text-transform: uppercase;
+        font-weight: 800;
+        margin-bottom: 2rem;
+    }
+    .industrial__h2{
+        color: black;
+        font-size: 28px;
+        font-family: 'Syne', sans-serif;
+        text-transform: uppercase;
+        font-weight: 800;
+        margin-bottom: 2rem;
+        
+    }
+    .argentino__h2{
+        color: black;
+        font-size: 28px;
+        font-family: 'Syne', sans-serif;
+        text-transform: uppercase;
+        font-weight: 800;
+        
+    }
+
+    .footer{
+        background-color: rgb(235, 235, 235);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .div-parrafo{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .nav__footer ul li{
+        list-style-type: none;
+    }
+    
+    .nav__footer ul{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin-right: 2rem;
+    }    
+        
+    
+    
+}
+
+/*------------------------------*/
+/*@media para sm*/
+
+@media (min-width: 577px) and (max-width: 767px) {
+    .items-barra li a:hover{
+        color: rgb(252, 160, 74);
+    } 
+    .main{
+        height: 300px;
+        margin-top: 50px;
+    }
+    .h1{
+        color: black;
+        font-size: 55px;
+        font-family: 'Syne', sans-serif;
+        text-transform: uppercase;
+        font-weight: 800;
+        margin: 3rem 0 3rem 0;
+    }
+    .industrial__h2{
+        color: black;
+        font-size: 55px;
+        font-family: 'Syne', sans-serif;
+        text-transform: uppercase;
+        font-weight: 800;
+        margin-bottom: 3rem;
+        
+    }
+    .argentino__h2{
+        color: black;
+        font-size: 55px;
+        font-family: 'Syne', sans-serif;
+        text-transform: uppercase;
+        font-weight: 800;
+        
+    }
+
+    .footer{
+        background-color: rgb(235, 235, 235);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;  
+    }
+    .div-parrafo{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .nav__footer ul li{
+        list-style-type: none;
+    }
+    
+    .nav__footer ul{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin-right: 2rem;
+        
+    }
+    
+}
+
+/*------------------------------*/
+/*@media para tablet*/
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .items-barra li a:hover{
+        color: rgb(252, 160, 74);
+    } 
+    /*.main{
+        height: 300px;
+        margin-top: 50px;
+    }*/
+    .h1{
+        color: black;
+        font-size: 65px;
+        font-family: 'Syne', sans-serif;
+        text-transform: uppercase;
+        font-weight: 800;
+        margin: 3rem 0 3rem 0;
+    }
+    .industrial__h2{
+        color: black;
+        font-size: 65px;
+        font-family: 'Syne', sans-serif;
+        text-transform: uppercase;
+        font-weight: 800;
+        margin-bottom: 3rem;
+        
+    }
+    .argentino__h2{
+        color: black;
+        font-size: 65px;
+        font-family: 'Syne', sans-serif;
+        text-transform: uppercase;
+        font-weight: 800;
+        
+    }
+
+    .footer{
+        background-color: rgb(235, 235, 235);
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: center;  
+    }
+    .div-parrafo{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .nav__footer ul li{
+        list-style-type: none;
+    }
+    
+    .nav__footer ul{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        
+    }
+    
+}
+
+/*------------------------------*/
+/*main estilo ABOUT*/
+.mainAbout{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.div__uno{
+    width: 44rem;
+    height: 31.2rem;
+    margin-top: 3rem;
+}
+
+.parrafo-uno{
+    color: black;
+    font-size: 35px;
+    font-family: 'Syne', sans-serif;
+    font-weight: 800;
+    text-align: left;
+}
+.parrafo-dos{
+    color: black;
+    font-size: 35px;
+    font-family: 'Syne', sans-serif;
+    font-weight: 800;
+    text-align: left;
+}
+.parrafo-tres{
+    color: black;
+    font-size: 35px;
+    font-family: 'Syne', sans-serif;
+    font-weight: 800;
+    text-align: right;
+}
+
+/*section uno ABOUT*/
+.sectionAbout{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.sectionAbout div{
+    width: 38.2rem;
+    height: 37.5rem;
+   
+}
+.sectionAbout div, .babyYoda{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+/*section dos */
+
+.sectionDos{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.div__experiencia{
+    width: 43.8rem;
+    height: 43.8rem; 
+}
+
+.div__experiencia, .experiencia{
+    color: black;
+    font-size: 40px;
+    font-family: 'Syne', sans-serif;
+    font-weight: 800;
+    text-align: center;
+    align-items: center;
+
+}
+.div__experiencia, .trabajo-cuatro, .trabajo-tres, .trabajo-dos, .trabajo-uno{
+    color: black;
+    font-size: 35px;
+    font-family: 'Syne', sans-serif;
+    font-weight: 600;
+    align-items: center;
+} 
+.experiencia{
+    width: 700px;
+    height: 50px;
+    margin-top: 3rem;
+}
+.trabajo-cuatro{
+    width: 700px;
+    height: 101px;
+    margin-top: 2rem;
+    text-align: left;
+}
+.trabajo-tres{
+    width: 700px;
+    height: 101px;
+    margin-top: 2rem;
+    text-align: left;
+}
+.trabajo-dos{
+    width: 700px;
+    height: 101px;
+    margin-top: 2rem;
+    text-align: right;
+}
+.trabajo-uno{
+    width: 700px;
+    height: 101px;
+    margin-top: 2rem;
+    text-align: right;
+}
+
+/*@media para mobile*/
+@media (max-width: 576px) {
+    .items-barra li a:hover{
+        color: rgb(252, 160, 74);
+    }
+    .div__uno{
+        width: 18rem;
+        height: 19rem;
+        margin-top: 3rem;
+        
+    }
+    .parrafo-uno{
+        color: black;
+        font-size: 18px;
+        font-family: 'Syne', sans-serif;
+        font-weight: 800;
+        text-align: left;
+    }
+    .parrafo-dos{
+        color: black;
+        font-size: 18px;
+        font-family: 'Syne', sans-serif;
+        font-weight: 800;
+        text-align: left;
+    }
+    .parrafo-tres{
+        color: black;
+        font-size: 18px;
+        font-family: 'Syne', sans-serif;
+        font-weight: 800;
+        text-align: right;
+    }
+    .sectionAbout div, .babyYoda{
+        display:none
+    }
+    /*section dos*/
+
+    .div__experiencia{
+        width: 18rem;
+        height: 40rem; 
+    }
+    
+    .div__experiencia, .experiencia{
+        color: black;
+        font-size: 16px;
+        font-family: 'Syne', sans-serif;
+        font-weight: 800;
+        text-align: center;
+        align-items: center;
+    
+    }
+    .div__experiencia, .trabajo-cuatro, .trabajo-tres, .trabajo-dos, .trabajo-uno{
+        color: black;
+        font-size: 20px;
+        font-family: 'Syne', sans-serif;
+        font-weight: 700;
+        align-items: center;
+    } 
+    .experiencia{
+        width: 18rem;
+        height: 3rem;
+        margin-top: 4rem;
+    }
+    .trabajo-cuatro{
+        width: 18rem;
+        height: 6rem;
+        margin-top: 2rem;
+        text-align: left;
+    }
+    .trabajo-tres{
+        width: 18rem;
+        height: 4.5rem;
+       
+        text-align: left;
+    }
+    .trabajo-dos{
+        width: 18rem;
+        height: 6rem;
+        
+        text-align: right;
+    }
+    .trabajo-uno{
+        width: 18rem;
+        height: 6rem;
+     
+        text-align: right;
+    }
+
+}
+
+/*@media para sm*/
+
+@media (min-width: 577px) and (max-width: 767px) {
+    .items-barra li a:hover{
+        color: rgb(252, 160, 74);
+    }
+    .div__uno{
+        width: 22rem;
+        height: 28rem;
+        margin-top: 3rem;
+        
+    }
+    .parrafo-uno{
+        color: black;
+        font-size: 25px;
+        font-family: 'Syne', sans-serif;
+        font-weight: 800;
+        text-align: left;
+    }
+    .parrafo-dos{
+        color: black;
+        font-size: 25px;
+        font-family: 'Syne', sans-serif;
+        font-weight: 800;
+        text-align: left;
+    }
+    .parrafo-tres{
+        color: black;
+        font-size: 25px;
+        font-family: 'Syne', sans-serif;
+        font-weight: 800;
+        text-align: right;
+    }
+    .sectionAbout div, .babyYoda{
+        display:none
+    }
+    /*section dos*/
+
+        .div__experiencia{
+            width: 22rem;
+            height: 40rem; 
+        }
+        
+        .div__experiencia, .experiencia{
+            color: black;
+            font-size: 20px;
+            font-family: 'Syne', sans-serif;
+            font-weight: 800;
+            text-align: center;
+            align-items: center;
+        
+        }
+        .div__experiencia, .trabajo-cuatro, .trabajo-tres, .trabajo-dos, .trabajo-uno{
+            color: black;
+            font-size: 20px;
+            font-family: 'Syne', sans-serif;
+            font-weight: 700;
+            align-items: center;
+        } 
+        .experiencia{
+            width: 22rem;
+            height: 2rem;
+            margin-top: 4rem;
+        }
+        .trabajo-cuatro{
+            width: 22rem;
+            height: 6rem;
+            margin-top: 2rem;
+            text-align: left;
+        }
+        .trabajo-tres{
+            width: 22rem;
+            height: 4.5rem;
+           
+            text-align: left;
+        }
+        .trabajo-dos{
+            width: 22rem;
+            height: 6rem;
+            
+            text-align: right;
+        }
+        .trabajo-uno{
+            width: 22rem;
+            height: 6rem;
+         
+            text-align: right;
+        }
+}
+
+
+/*@media para tablet*/
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .items-barra li a:hover{
+        color: rgb(252, 160, 74);
+    }
+    .div__uno{
+        width: 28rem;
+        height: 26rem;
+        margin: 3rem 0 3rem 0;
+        
+    }
+    .parrafo-uno{
+        color: black;
+        font-size: 25px;
+        font-family: 'Syne', sans-serif;
+        font-weight: 800;
+        text-align: left;
+    }
+    .parrafo-dos{
+        color: black;
+        font-size: 25px;
+        font-family: 'Syne', sans-serif;
+        font-weight: 800;
+        text-align: left;
+    }
+    .parrafo-tres{
+        color: black;
+        font-size: 25px;
+        font-family: 'Syne', sans-serif;
+        font-weight: 800;
+        text-align: right;
+    }
+    .sectionAbout div, .babyYoda{
+        display:none
+    }
+    /*section dos*/
+
+    .div__experiencia{
+        width: 28rem;
+        height: 40rem; 
+    }
+    
+    .div__experiencia, .experiencia{
+        color: black;
+        font-size: 20px;
+        font-family: 'Syne', sans-serif;
+        font-weight: 800;
+        text-align: center;
+        align-items: center;
+    
+    }
+    .div__experiencia, .trabajo-cuatro, .trabajo-tres, .trabajo-dos, .trabajo-uno{
+        color: black;
+        font-size: 25px;
+        font-family: 'Syne', sans-serif;
+        font-weight: 700;
+        align-items: center;
+    } 
+    .experiencia{
+        width: 28rem;
+        height: 3rem;
+        margin-top: 4rem;
+    }
+    .trabajo-cuatro{
+        width: 28rem;
+        height: 6rem;
+        margin-top: 1rem;
+        text-align: left;
+    }
+    .trabajo-tres{
+        width: 28rem;
+        height: 4.5rem;
+       
+        text-align: left;
+    }
+    .trabajo-dos{
+        width: 28rem;
+        height: 6rem;
+        
+        text-align: right;
+    }
+    .trabajo-uno{
+        width: 28rem;
+        height: 6rem;
+     
+        text-align: right;
+    }
+
+}
+
+/*Luminaria*/
+
+ 
+.section .section__h2{
+    color: black;
+    font-size: 45px;
+    font-family: 'Syne', sans-serif;
+    font-weight: 600;
+    margin: 10px;
+}
+  
+/*bazar*/
+.main-bazar{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 6rem;
+
+}
+.div-bazar{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 3rem;
+    gap: 3rem;
+}
+.divBazarParrafo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+}
+.divBazarParrafo p{
+    color: black;
+    font-size: 25px;
+    font-family: 'Syne', sans-serif;
+    font-weight: 600;
+}
+.divBabyYoda{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 6rem 0 6rem 0;
+}
+.divYoda{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+    margin: 6rem 0 6rem 0;
+}
+.divYodaParrafo{
+    width: 30rem;
+    height: 20rem;
+}
+.divYodaParrafo p{
+    color: black;
+    font-size: 25px;
+    font-family: 'Syne', sans-serif;
+    font-weight: 600;
+}
+.divPersonajes{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+/*luminaria*/
+
+.divLamparas{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 6rem;
+    margin: 3rem 0 3rem 0;
+}
+.divLamparasParrafo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10rem;
+    margin: 3rem 0 3rem 0;
+}
+.divLamparasParrafo p{
+    color: black;
+    font-size: 25px;
+    font-family: 'Syne', sans-serif;
+    font-weight: 600;
+}
+
+/*Moldes y Matrices*/
+
+.divCarousel{
+    margin-left: 7rem;
+
+}
+.divCopa{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10rem;
+    margin: 3rem 0 3rem 0;
+}
+.parrafoCopa{
+    width: 30rem;
+    height: 20rem;
+    margin-top: 6rem;
+}
+.divCopa p{
+    color: black;
+    font-size: 25px;
+    font-family: 'Syne', sans-serif;
+    font-weight: 600;
+}
+.divTenedores{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 3rem 0 3rem 0;
+}
+.divMatriz{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    margin: 6rem 0 3rem 0;
+}
+.divMatriz p{
+    color: black;
+    font-size: 25px;
+    font-family: 'Syne', sans-serif;
+    font-weight: 600;
+}

@@ -1,0 +1,45 @@
+@import "../base/listas";
+@import "../base/variables";
+@import "../base/extends";
+@import "../base/mixin";
+@import "../base/maps";
+
+
+
+
+.mainIndex{
+    background-color: $color-principal;
+    @extend %disposicion3;
+    .main__div{
+        @include sizes(60rem, 28rem);
+        div{
+            div{
+                .h1{
+                    @include textos(black, 120px);
+                    font-family: 'Syne', sans-serif;
+                    font-weight: nth($font-w, 5);
+                    text-align: center;
+
+                }
+            }
+            div{
+                .industrial__h2{
+                    @include textos(black, 90px);
+                    font-family: 'Syne', sans-serif;
+                    font-weight: nth($font-w, 5);
+                    text-align: center;
+
+                }
+            }
+            div{
+                .argentino__h2{
+                    @include textos(black, 80px);
+                    font-family: 'Syne', sans-serif;
+                    font-weight: nth($font-w, 5);
+                    text-align: center;
+
+                }
+            }
+        }
+    }
+}

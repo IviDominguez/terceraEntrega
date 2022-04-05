@@ -1,0 +1,49 @@
+@import "../base/extends";
+@import "../base/variables";
+@import "../base/extends";
+@import "../base/listas";
+@import "../base/maps";
+
+footer{
+    background-color: $color-principal;
+    div{
+        div{
+            .div-parrafo{
+                @extend %disposicion2;
+                .nombre{
+                    color: $color-acento;
+                    font-size: 18px;
+                    font-family: 'Syne', sans-serif;
+                    font-weight: nth($font-w, 2);
+                }
+            }
+            .nav__footer{
+                ul{
+                    @extend %disposicion1;
+                    li{
+                        list-style-type: none;
+                        .linkedin i{
+                            color: $color-acento;
+                            font-size: nth($size-iconos, 2);
+                        }
+                        .behance i{
+                            color: $color-acento;
+                            font-size: nth($size-iconos, 2);
+                            margin-left: 20px;
+                        }
+                        .facebook i{
+                            color: $color-acento;
+                            font-size: nth($size-iconos, 2);
+                            margin-left: 20px;
+                        }
+                        .instagram i{
+                            color: $color-acento;
+                            font-size: nth($size-iconos, 2);
+                            margin-left: 20px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
